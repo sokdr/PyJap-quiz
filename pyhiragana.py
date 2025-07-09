@@ -1,7 +1,4 @@
 import random
-#from termcolor 
-#import colored
-
 
 hiragana_romaji_a = {'あ': 'a',  'い': 'i',  'う': 'u',  'え': 'e',  'お': 'o',}
 hiragana_romaji_ka = {'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko'}
