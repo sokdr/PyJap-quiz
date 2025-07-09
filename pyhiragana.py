@@ -1,3 +1,4 @@
+#sokdr
 import random
 
 hiragana_romaji_a = {'あ': 'a',  'い': 'i',  'う': 'u',  'え': 'e',  'お': 'o',}
