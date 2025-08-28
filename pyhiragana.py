@@ -1,15 +1,15 @@
 import random
-#from termcolor 
+#from termcolor
 #import colored
 
 
-hiragana_romaji_a = {'あ': 'a',  'い': 'i',  'う': 'u',  'え': 'e',  'お': 'o',}
-hiragana_romaji_ka = {'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko'}
-hiragana_romaji_sa = {'さ': 'sa', 'し': 'shi','す': 'su', 'せ': 'se', 'そ': 'so'}
-hiragana_romaji_ta = {'た': 'ta', 'ち': 'chi','つ': 'tsu','て': 'te', 'と': 'to'}
-hiragana_romaji_na = {'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no'}
-hiragana_romaji_ha = {'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho'}
-hiragana_romaji_ma = {'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo'}
+hiragana_romaji_a = {'あ': 'a',  'い': 'i',  'う': 'u',  'え': 'e',  'お': 'o',}   
+hiragana_romaji_ka = {'か': 'ka', 'き': 'ki', 'く': 'ku', 'け': 'ke', 'こ': 'ko'}  
+hiragana_romaji_sa = {'さ': 'sa', 'し': 'shi','す': 'su', 'せ': 'se', 'そ': 'so'}  
+hiragana_romaji_ta = {'た': 'ta', 'ち': 'chi','つ': 'tsu','て': 'te', 'と': 'to'}  
+hiragana_romaji_na = {'な': 'na', 'に': 'ni', 'ぬ': 'nu', 'ね': 'ne', 'の': 'no'}  
+hiragana_romaji_ha = {'は': 'ha', 'ひ': 'hi', 'ふ': 'fu', 'へ': 'he', 'ほ': 'ho'}  
+hiragana_romaji_ma = {'ま': 'ma', 'み': 'mi', 'む': 'mu', 'め': 'me', 'も': 'mo'}  
 hiragana_romaji_ya = {'や': 'ya',             'ゆ': 'yu',             'よ': 'yo'}  
 hiragana_romaji_ra = {'ら': 'ra', 'り': 'ri', 'る': 'ru', 'れ': 're', 'ろ': 'ro'}
 hiragana_romaji_wa = {'わ': 'wa', 'ん': 'n', 'を': 'wo'}
@@ -26,7 +26,7 @@ hiragana_romaji_list = {
     'わ': 'wa',                         'を': 'wo',
     'ん': 'n'
 }
- 
+
 
 katakana_romaji_a = {'ア': 'a',  'イ': 'i',  'ウ': 'u',  'エ': 'e',  'オ': 'o',}
 katakana_romaji_ka = {'カ': 'ka', 'キ': 'ki', 'ク': 'ku', 'ケ': 'ke', 'コ': 'ko'}
@@ -50,24 +50,24 @@ katakana_romaji_list = {
     'ラ': 'ra', 'リ': 'ri', 'ル': 'ru', 'レ': 're', 'ロ': 'ro',
     'ワ': 'wa',                         'ヲ': 'wo',
     'ン': 'n'
-    
+
 }
 
 
 
 
 print(f"Welcome user to Japanese hiragana and katakana test please choose which one you want to test\n")
-japanese_writing = int(input("1) hiragana\n2) katakana\nPlease enter your choise:> "))
+japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choise:> ")
 
 while True:
-    if japanese_writing != 1 and japanese_writing != 2:
+    if japanese_writing != "1" and japanese_writing != "2":
         print(f"Please enter a valid choise 1 or 2")
-        japanese_writing = int(input("1) hiragana\n2) katakana\nPlease enter your choise:> "))
+        japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choise:> ")
     else:
         print(f"Exiting script.")
         break
 
-if japanese_writing == 1:
+if japanese_writing == "1":
 
     print(f"Welocme user to hiragana test please choose which one to test\n")
     print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
@@ -91,14 +91,14 @@ if japanese_writing == 1:
                     print()
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     print()
                     wrong +=1
-                print(f"You have {max_count - count} attempts left") 
+                print(f"You have {max_count - count} attempts left")
                 print()
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
-                
+
         elif user_choice == "2":
             count = 0
             max_count = 10
@@ -113,11 +113,11 @@ if japanese_writing == 1:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left") 
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers") 
+                print
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "3":
             count = 0
@@ -135,9 +135,9 @@ if japanese_writing == 1:
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}") 
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")   
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "4":
             count = 0
@@ -153,11 +153,11 @@ if japanese_writing == 1:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left")  
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")  
+                print
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "5":
             count = 0
@@ -173,10 +173,10 @@ if japanese_writing == 1:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left")    
+                print
+                print(f"You have {max_count - count} attempts left")
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "6":
@@ -193,11 +193,11 @@ if japanese_writing == 1:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left")   
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers") 
+                print
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "7":
             count = 0
@@ -214,8 +214,8 @@ if japanese_writing == 1:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
@@ -234,10 +234,10 @@ if japanese_writing == 1:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")  
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "9":
             count = 0
@@ -254,10 +254,10 @@ if japanese_writing == 1:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "10":
             count = 0
@@ -273,11 +273,11 @@ if japanese_writing == 1:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
 
         elif user_choice == "11":
@@ -294,19 +294,19 @@ if japanese_writing == 1:
                     print("✅ Correct")
                     correct +=1
                 else:
-                    print(f"❌ Wrong. The answer is {correct_romaji}") 
+                    print(f"❌ Wrong. The answer is {correct_romaji}")
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "12":
              print("Goodbye")
              break
         else:
             print("Enter a valid Choice 1 to 12")
-        
-elif japanese_writing == 2:
+
+elif japanese_writing == "2":
 
     print(f"Welocme user to katakana test please choose which one to test\n")
     print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
@@ -330,14 +330,14 @@ elif japanese_writing == 2:
                     print()
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     print()
                     wrong +=1
-                print(f"You have {max_count - count} attempts left") 
+                print(f"You have {max_count - count} attempts left")
                 print()
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
-                
+
         elif user_choice == "2":
             count = 0
             max_count = 10
@@ -352,11 +352,11 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left") 
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers") 
+                print
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "3":
             count = 0
@@ -372,11 +372,11 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")   
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "4":
             count = 0
@@ -392,11 +392,11 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
                 print 
-                print(f"You have {max_count - count} attempts left")  
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")  
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "5":
             count = 0
@@ -412,10 +412,10 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left")    
+                print
+                print(f"You have {max_count - count} attempts left")
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "6":
@@ -432,11 +432,11 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
-                print(f"You have {max_count - count} attempts left")   
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers") 
+                print
+                print(f"You have {max_count - count} attempts left")
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "7":
             count = 0
@@ -453,8 +453,8 @@ elif japanese_writing == 2:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
@@ -473,10 +473,10 @@ elif japanese_writing == 2:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")  
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "9":
             count = 0
@@ -493,10 +493,10 @@ elif japanese_writing == 2:
                     correct +=1
                 else:
                     print(f"Wrong. The correct answer is {correct_romaji}")
-                    wrong +=1 
-                print 
+                    wrong +=1
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "10":
             count = 0
@@ -512,11 +512,11 @@ elif japanese_writing == 2:
                     print("Correct")
                     correct +=1
                 else:
-                    print(f"Wrong. The correct answer is {correct_romaji}") 
+                    print(f"Wrong. The correct answer is {correct_romaji}")
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
 
         elif user_choice == "11":
@@ -533,16 +533,14 @@ elif japanese_writing == 2:
                     print("✅ Correct")
                     correct +=1
                 else:
-                    print(f"❌ Wrong. The answer is {correct_romaji}") 
+                    print(f"❌ Wrong. The answer is {correct_romaji}")
                     wrong +=1
-                print 
+                print
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")    
+            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
 
         elif user_choice == "12":
             print("Goodbye")
             break
         else:
                 print("Enter a valid Choice 1 to 12")
-
-
