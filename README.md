@@ -13,7 +13,7 @@ Learn Hiragana and Katakana
 Simple keyboard/console input
 
 
-<img width="700" height="674" alt="pyjap_hiragana" src="https://github.com/user-attachments/assets/1e3194b2-bd35-4347-a239-cc5eac1b9d35" />
+
 
 
 
