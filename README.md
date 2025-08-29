@@ -32,5 +32,5 @@ Clone the repository:
 Usage ▶️
 
 Run the script with:
-```python3 PyJap-Quiz.py```
+```python3 PyJap.py```
 
