@@ -25,7 +25,7 @@ Installation ⚡
 
 Clone the repository:
 
-```https://github.com/sokdr/PyJap-quiz.git```
+<pre> git clone https://github.com/sokdr/PyJap-quiz.git </pre>
 
 ```cd PyJap-Quiz```
 
