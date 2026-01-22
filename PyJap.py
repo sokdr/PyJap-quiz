@@ -69,12 +69,12 @@ while True:
 
 if japanese_writing == "1":
 
-    print(f"Welocme user to hiragana test please choose which one to test\n")
+    print(f"Welcome user to hiragana test please choose which one to test\n")
     print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
     while True:
-        user_choice = input("Please enter your choise: ")
+        user_choice = input("Please enter your choice: ")
         print()
-        valid_choise = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
         if user_choice == "1":
             count = 0
@@ -311,9 +311,9 @@ elif japanese_writing == "2":
     print(f"Welcome user to katakana test please choose which one to test\n")
     print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
     while True:
-        user_choice = input("Please enter your choise: ")
+        user_choice = input("Please enter your choice: ")
         print()
-        valid_choise = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
         if user_choice == "1":
             count = 0
