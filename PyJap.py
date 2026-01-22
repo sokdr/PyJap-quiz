@@ -57,12 +57,12 @@ katakana_romaji_list = {
 
 
 print(f"Welcome user to Japanese hiragana and katakana test please choose which one you want to test\n")
-japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choise:> ")
+japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choice:> ")
 
 while True:
     if japanese_writing != "1" and japanese_writing != "2":
-        print(f"Please enter a valid choise 1 or 2")
-        japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choise:> ")
+        print(f"Please enter a valid choice 1 or 2")
+        japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choice:> ")
     else:
         print(f"Exiting script.")
         break
@@ -308,7 +308,7 @@ if japanese_writing == "1":
 
 elif japanese_writing == "2":
 
-    print(f"Welocme user to katakana test please choose which one to test\n")
+    print(f"Welcome user to katakana test please choose which one to test\n")
     print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
     while True:
         user_choice = input("Please enter your choise: ")
