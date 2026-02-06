@@ -14,7 +14,7 @@ Simple keyboard/console input
 
 
 
-
+----
 Installation
 
 Clone the repository:
@@ -23,6 +23,7 @@ Clone the repository:
 
 ```cd PyJap-Quiz```
 
+----
 Usage
 
 Run the script with:
