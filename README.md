@@ -5,6 +5,7 @@
 ### PyJap-Quiz is a simple Python script to help you learn Hiragana and Katakana within the terminal.
 
 
+
 Simple keyboard/console input
 
 <img width="667" height="896" alt="py1" src="https://github.com/user-attachments/assets/926765a5-d8fb-44ad-a128-f7a407c91caf" />
