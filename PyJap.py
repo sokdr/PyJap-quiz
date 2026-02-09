@@ -1,6 +1,6 @@
 import random
-#from termcolor
-#import colored
+import sys
+#from termcolor import colored
 
 
 hiragana_romaji_a = {'あ': 'a',  'い': 'i',  'う': 'u',  'え': 'e',  'お': 'o',}
@@ -105,7 +105,9 @@ def japan_hiragana():
                     wrong +=1
                 print(f"You have {max_count - count} attempts left")
                 print()
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "2":
@@ -125,7 +127,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "3":
@@ -145,7 +149,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "4":
@@ -165,7 +171,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "5":
@@ -185,7 +193,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "6":
@@ -205,7 +215,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "7":
@@ -225,7 +237,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "8":
@@ -245,7 +259,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "9":
@@ -265,7 +281,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "10":
@@ -285,7 +303,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
 
@@ -306,7 +326,9 @@ def japan_hiragana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "12":
@@ -315,7 +337,10 @@ def japan_hiragana():
             
         elif user_choice == "13":
             print("Exiting")
-            break
+            sys.exit()
+
+        else:
+            print(f"Invalid option")
             
 
 
@@ -348,7 +373,9 @@ def japan_katakana():
                     wrong +=1
                 print(f"You have {max_count - count} attempts left")
                 print()
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
 
@@ -369,7 +396,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "3":
@@ -389,7 +418,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "4":
@@ -409,7 +440,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "5":
@@ -429,7 +462,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "6":
@@ -449,7 +484,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "7":
@@ -469,7 +506,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "8":
@@ -489,7 +528,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "9":
@@ -509,7 +550,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
         elif user_choice == "10":
@@ -529,7 +572,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
 
 
@@ -550,7 +595,9 @@ def japan_katakana():
                     wrong +=1
                 print()
                 print(f"You have {max_count - count} attempts left")
-            print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
+            print(f"You have {correct} correct answers ")
+            print()
+            print(f"You have {wrong} wrong answers ")
             print()
         
         elif user_choice == "12":
@@ -559,6 +606,9 @@ def japan_katakana():
 
         elif user_choice == "13":
             print("Exiting")
-            break
+            sys.exit()
+
+        else:
+            print(f"Invalid option")
 
 japan_writing_menu()
