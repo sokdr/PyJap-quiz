@@ -57,23 +57,33 @@ katakana_romaji_list = {
 
 japanese_writing = ""
 
+def japan_writing_menu():
 
-while True:
-    if japanese_writing not in ("1", "2" ):
-        japanese_writing = input("1) hiragana\n2) katakana\nPlease enter your choice:> ")
-    else:
-        print(f"Exiting script.")
-        break
+    while True:
+        japanese_writing = input("1) hiragana\n2) katakana\n3) Quit\n Please enter your choice:> ")
+        if japanese_writing == "1":
+            japan_hiragana()
+        elif japanese_writing == "2":
+            japan_katakana()
+        elif japanese_writing not in ( "1" , "2" , "3"):
+             print(f"choose again.")
+        elif japanese_writing == "3":
+             print(f"exiting...")
+             break
+        else:
+            print(f"Invalid option")
+            
 
-if japanese_writing == "1":
+def japan_hiragana():
 
     print()
     while True:
         print(f"Welcome to hiragana test please choose which one to test\n")
-        print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
+        print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) main menu\n""13 Quit\n")
         user_choice = input("Please enter your choice: ")
         print()
-        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
+        
 
         if user_choice == "1":
             count = 0
@@ -298,22 +308,24 @@ if japanese_writing == "1":
             print()
 
         elif user_choice == "12":
-             print("Exiting")
-             break
-        
-
-
-
+            print(f"Go back to main menu: ")
+            return
+            
+        elif user_choice == "13":
+            print("Exiting")
+            break
             
 
-elif japanese_writing == "2":
+
+
+def japan_katakana():
 
     while True:
         print(f"Welcome to katakana test please choose which one to test\n")
-        print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) q(quit)\n")
+        print(f"1) a\n""2) ka\n""3) sa\n""4) ta\n""5) na\n""6) ha\n""7) ma\n""8) ya\n""9) ra\n""10) wa\n""11) all\n""12) main menu ""\n13) Quit\n")
         user_choice = input("Please enter your choice: ")
         print()
-        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+        valid_choice = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
         print()
 
         if user_choice == "1":
@@ -538,7 +550,13 @@ elif japanese_writing == "2":
                 print(f"You have {max_count - count} attempts left")
             print(f"You have ✅ {correct} correct answers, and ❌ {wrong} wrong answers")
             print()
-
+        
         elif user_choice == "12":
+            print(f"Go back to main menu: ")
+            return
+
+        elif user_choice == "13":
             print("Exiting")
             break
+
+japan_writing_menu()
