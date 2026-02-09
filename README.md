@@ -8,10 +8,12 @@
 Simple keyboard/console input
 
 
+<img width="834" height="900" alt="py1" src="https://github.com/user-attachments/assets/96a5586f-8fb1-442c-a4ff-b3b7ada9f7aa" />
 
-<img width="670" height="92" alt="intro" src="https://github.com/user-attachments/assets/7b5a8802-79ca-4b72-8991-5206bdbef571" />
 
-<img width="700" height="674" alt="pyjap_hiragana" src="https://github.com/user-attachments/assets/fc8996e3-a3aa-4582-9335-9ce3d576a9c3" />
+
+<img width="609" height="716" alt="py2" src="https://github.com/user-attachments/assets/c8d9e5b2-7b90-41a6-beec-550fa6524073" />
+
 
 
 
