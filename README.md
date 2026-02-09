@@ -7,12 +7,10 @@
 
 Simple keyboard/console input
 
-
-<img width="834" height="900" alt="py1" src="https://github.com/user-attachments/assets/96a5586f-8fb1-442c-a4ff-b3b7ada9f7aa" />
-
+<img width="667" height="896" alt="py1" src="https://github.com/user-attachments/assets/926765a5-d8fb-44ad-a128-f7a407c91caf" />
 
 
-<img width="609" height="716" alt="py2" src="https://github.com/user-attachments/assets/c8d9e5b2-7b90-41a6-beec-550fa6524073" />
+<img width="731" height="653" alt="py2" src="https://github.com/user-attachments/assets/b13188e2-13c0-49b4-8c26-338134d4874e" />
 
 
 
