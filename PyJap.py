@@ -60,6 +60,8 @@ japanese_writing = ""
 def japan_writing_menu():
 
     while True:
+        print("Welcome to hiragana and katakana quiz test: ")
+        print()
         japanese_writing = input("1) hiragana\n2) katakana\n3) Quit\n Please enter your choice:> ")
         if japanese_writing == "1":
             japan_hiragana()
